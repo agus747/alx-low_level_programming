@@ -1,14 +1,10 @@
 #include <stdio.h>
 
-/**
+/*
+ * main - Entry point
+ * Return: Always 0 (success)
  *
- *    * main - print to screen
- *
- *       *
- *
- *          * Return: zero
- *
- *             */
+*/
 
 int main(void)
 
