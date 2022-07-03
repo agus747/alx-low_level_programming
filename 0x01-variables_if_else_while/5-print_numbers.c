@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-/*
- *main - print numbers of base 10
- *
- * Return: zero
+/**
+ * main - prints all single digit numbers of base 10 from 0
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i <= 9; i++)
-		printf("%d", i);
+	for (n == 0; n < 10; n++)
+		printf("%d", n);
 	printf("\n");
 	return (0);
 }
