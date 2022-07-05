@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - debugging example
+ * main - prints the word _putchar
+ *
  * Return: 0
  */
 
 int main(void)
 {
-	char *putchar = "putchar";
+	char word[8] = "_putchar";
+	int i;
 
-	while (*putchar)
+	for (i = 0; i <= 7; i++)
 	{
-		_putchar(*putchar);
-			putchar++;
+		putchar(word[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
